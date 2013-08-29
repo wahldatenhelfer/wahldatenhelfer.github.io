@@ -28,6 +28,7 @@ p {
 .heading {
 	font-family: 'Oxygen';
 	font-size: 30px;
+	margin-top: 10px;
 }
 
 .flat-box {
@@ -111,7 +112,7 @@ p {
 }
 
 #events h2 {
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 .city-list{
@@ -184,8 +185,33 @@ p {
   background-position: bottom center;
 }
 
+#mc-embedded-subscribe-form {
+	margin-top: 20px;
+}
+
+#mc-embedded-subscribe-form input, #mc-embedded-subscribe-form textarea{
+	font-size: 18px;
+	padding: 5px;
+	width: 300px;
+}
+
+#mc-embedded-subscribe-form textarea{
+	height: 90px;
+	margin: 5px 0;
+}
+
+#mc-embedded-subscribe-form input.button {
+	border-radius: 0;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border: none;
+	width: 312px;
+	margin-bottom: 10px;
+}
+
 a:link { text-decoration:none; font-weight:bold; color:#fff; }
 a:visited { text-decoration:none; font-weight:bold; color:#fff; }
 a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
-a:active { text-decoration:none; font-weight:bold; background-color:#000; }
+#footer a:active { text-decoration:none; font-weight:bold; background-color:#000; }
 a:focus { text-decoration:none; font-weight:bold; background-color:#fff; }

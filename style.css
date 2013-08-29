@@ -110,8 +110,14 @@ p {
 	padding: 12px 0 0 200px;
 }
 
+#events h2 {
+	margin-bottom: 12px;
+}
+
 .city-list{
-list-style-type: none;
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 12px;
 }
 
 .box .box-header {
@@ -121,9 +127,13 @@ list-style-type: none;
 }
 
 .box .box-content {
-	border: 1px solid #e5e6e6;
+	border: 2px solid #e5e6e6;
+	padding: 5px;
 }
 
+.box {
+	margin-bottom: 10px;
+}
 
 #container {
   position: relative;

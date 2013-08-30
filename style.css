@@ -58,7 +58,11 @@ p {
 	margin: 0 0 0 0;
 }
 
-
+.ueber {
+	float: left;
+	width: 600px;
+	padding: 0 20px 0 27px;
+}
 
 .right_top {
 	float: right;
@@ -114,7 +118,7 @@ p {
         -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
         -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
     
-    height: 220px;
+    height: 240px;
     width: 826px;
     padding: 18px;
     background-color: #FFFFFF;
@@ -132,6 +136,17 @@ p {
     margin-top: 18px;
 }
 
+.serene3{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+    
+    height: 800px;
+    width: 826px;
+    padding: 18px;
+    background-color: #FFFFFF;
+    margin-top: 18px;
+}
 .text_2_inner{
 	height: 300px;
 	width: 350px;
@@ -189,7 +204,7 @@ p {
 .impressum a:hover,
 .impressum a:active,
 .impressum a:focus {
-	margin: 0 0 0 1065px;
+	margin: 0 0 0 1030px;
 	font-size: 10px;
 	color: #6E6E6E;
 }

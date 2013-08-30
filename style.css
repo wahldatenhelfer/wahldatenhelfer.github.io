@@ -60,7 +60,7 @@ p {
 
 .right_top {
 	float: right;
-	width: 80px;
+	width: 40px;
 	margin: 10px 0 0 0;
 }
 
@@ -122,10 +122,6 @@ p {
 	padding: 0 26px;
 }
 
-.imp {
-	padding: 12px 5px 30px 80px;
-}
-
 #events h2 {
 	margin-bottom: 10px;
 }
@@ -151,8 +147,23 @@ p {
 	margin-bottom: 10px;
 }
 
+.footer-pos {
+	margin: 0 auto;
+	width: 615px;
+}
+
 .footer-pics{
-	margin: 0 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.impressum a:link,
+.impressum a:visited,
+.impressum a:hover,
+.impressum a:active,
+.impressum a:focus {
+	margin: 0 0 5px 998px;
+	font-size: 10px;
+	color: #6E6E6E;
 }
 
 #container {
@@ -197,11 +208,12 @@ p {
 	color: #fff;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 12px;
-	height: 78px;
+	height: 60px;
 	width: 826px;
 	margin: 0 auto;
   background-repeat:no-repeat;
   background-position: bottom center;
+  line-height: 80px;
 }
 
 #mc-embedded-subscribe-form {

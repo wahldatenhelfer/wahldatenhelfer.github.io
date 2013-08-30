@@ -47,6 +47,15 @@ p {
 .right {
 	float: left;
 	width: 370px;
+	margin: 10px 0 0 0;
+
+}
+
+.bilder {
+	float: left;
+	width: 820px;
+	padding: 0 18px;
+	margin: 0 0 0 0;
 }
 
 .right_top {
@@ -72,8 +81,14 @@ p {
 	padding: 10px 20px;
 }
 
+.box-header2 {
+	margin: 0;
+	padding: 10px 20px;
+}
+
 .text_1{
 	background: url(box1.png) no-repeat;
+	margin-bottom: 20px;
 }
 
 .text_1_inner{

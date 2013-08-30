@@ -161,7 +161,7 @@ p {
 .impressum a:hover,
 .impressum a:active,
 .impressum a:focus {
-	margin: 0 0 5px 998px;
+	margin: 0 0 0 65px;
 	font-size: 10px;
 	color: #6E6E6E;
 }

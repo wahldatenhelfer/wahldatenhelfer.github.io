@@ -230,12 +230,20 @@ p {
 	margin: 10px 10px 10px 10px;
 }
 
+.box a:link,
+.box a:visited,
+.box a:hover,
+.box a:active,
+.box a:focus {
+  color: #fff;
+}
+
 .impressum a:link,
 .impressum a:visited,
 .impressum a:hover,
 .impressum a:active,
 .impressum a:focus {
-	margin: 0 0 0 1030px;
+	margin: 0 0 0 993px;
 	font-size: 10px;
 	color: #6E6E6E;
 }

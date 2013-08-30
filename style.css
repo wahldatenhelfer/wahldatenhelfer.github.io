@@ -32,7 +32,7 @@ p {
 }
 
 .flat-box {
-	margin: 18px;
+	padding: 18px;
 }
 .image-box {
 	padding: 18px;
@@ -57,6 +57,8 @@ p {
 	padding: 0 18px;
 	margin: 0 0 0 0;
 }
+
+
 
 .right_top {
 	float: right;
@@ -102,6 +104,32 @@ p {
 .text_2{
 	background-color: #fbe106;
 	width: 826px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+
+.serene{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+    
+    height: 220px;
+    width: 826px;
+    padding: 18px;
+    background-color: #FFFFFF;
+}
+
+.serene2{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+    
+    height: 200px;
+    width: 826px;
+    padding: 18px;
+    background-color: #FFFFFF;
+    margin-top: 18px;
 }
 
 .text_2_inner{

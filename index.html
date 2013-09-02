@@ -107,7 +107,7 @@ layout: default
         {% if event.tags contains "event" %}
           <li class="box">
             <div class="box-header">
-              <a href="{{ event.url }}">&lt;wahllokal/&gt; {{ event.name }}</a>
+              <a href="{{ event.url|replace:"index.html","" }}">&lt;wahllokal/&gt; {{ event.name }}</a>
             </div>
             <div class="box-content">
               {{ event.where }}<br/>

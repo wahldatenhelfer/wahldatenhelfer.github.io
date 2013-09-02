@@ -339,6 +339,6 @@ text-decoration:none; font-weight:bold; color:#fff;
 }
 
 
-a:link { text-decoration:none; font-weight:bold; color:#000000; }
-a:hover, a:visited, a:focus { text-decoration:none; font-weight:bold; color:#fbe106; }
+a, a:focus, a:visited { text-decoration:none; font-weight:bold; color:#000000; }
+a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
 #footer a:active { text-decoration:none; font-weight:bold; background-color:#000; }

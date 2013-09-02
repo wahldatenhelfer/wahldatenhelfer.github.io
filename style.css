@@ -125,7 +125,7 @@ p {
 }
 
 .serene0 {
-    
+
     height: 140px;
     width: 826px;
     margin-top: 20px;
@@ -137,8 +137,8 @@ p {
 .serene{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
         -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
-        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
-    
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
     height: 240px;
     width: 826px;
     padding: 18px;
@@ -148,8 +148,8 @@ p {
 .serene2{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
         -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
-        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
-    
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
     height: 200px;
     width: 826px;
     padding: 18px;
@@ -160,8 +160,8 @@ p {
 .serene3{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
         -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
-        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
-    
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
     height: 800px;
     width: 826px;
     padding: 18px;
@@ -170,7 +170,7 @@ p {
 }
 
 .serene4{
-    
+
     height: 230px;
     width: 826px;
     padding: 18px;
@@ -243,7 +243,7 @@ p {
 .impressum a:hover,
 .impressum a:active,
 .impressum a:focus {
-	margin: 0 0 0 993px;
+	margin: 0 0 0 1065px;
 	font-size: 10px;
 	color: #6E6E6E;
 }

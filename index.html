@@ -141,11 +141,17 @@ layout: default
 
     {% for event in site.pages %}
       {% if event.tags contains "event" %}
-        markers.push(new google.maps.Marker({
+      (function(){
+        var marker = new google.maps.Marker({
           position: new google.maps.LatLng({{ event.lat }}, {{ event.lng }}),
           map: map,
           title: 'Wahllokal {{ event.name }}'
-        }));
+        })
+        google.maps.event.addListener(marker, 'click', function() {
+            window.location.href = {{ event.url|replace:"index.html","" }};
+        });
+        markers.push(marker);
+      }());
       {% endif %}
     {% endfor %}
   }());

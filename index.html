@@ -106,9 +106,9 @@ layout: default
       {% for event in site.pages %}
         {% if event.tags contains "event" %}
           <li class="box">
-            <div class="box-header">
-              <a href="{{ event.url|replace:"index.html","" }}">&lt;wahllokal/&gt; {{ event.name }}</a>
-            </div>
+            <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
+              &lt;wahllokal/&gt; {{ event.name }}
+            </a>
             <div class="box-content">
               {{ event.where }}<br/>
               {{ event.when }}

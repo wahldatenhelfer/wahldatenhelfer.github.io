@@ -20,6 +20,13 @@ layout: default
           {{ page.when }}
         </div>
       </li>
+      {% if page.info %}
+      <li class="box">
+        <div class="box-content">
+          {{ page.info }}
+        </div>
+      </li>
+      {% endif %}
     </ul>
   </div>
 </div>

@@ -196,6 +196,10 @@ a.box-header:hover {
   .map-container {
     padding-left: 0 !important;
   }
+  .box .box-content.city-info {
+    overflow: auto;
+    height: 295px;
+  }
 }
 
 @media (max-width: 970px) {

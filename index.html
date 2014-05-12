@@ -125,24 +125,19 @@ layout: default
     <div class="row">
       <div class="col-lg-12">
         <h2>Vergangene Events</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h3>Bundestagswahl 2013</h3>
         <ul class="city-list">
           {% for event in site.pages %}
-            {% if event.tags contains "event" %}
-              {% unless event.tags contains "europawahl2014" %}
-                <li class="box">
-                  <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
-                    &lt;wahllokal/&gt; {{ event.name }}
-                  </a>
-                  <div class="box-content">
-                    {{ event.where }}<br/>
-                    {{ event.when }}
-                  </div>
-                </li>
-              {% endunless %}
+            {% if event.tags contains "bundestagswahl2013" %}
+              <li class="box">
+                <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
+                  &lt;wahllokal/&gt; {{ event.name }}
+                </a>
+                <div class="box-content">
+                  {{ event.where }}<br/>
+                  {{ event.when }}
+                </div>
+              </li>
             {% endif %}
           {% endfor %}
         </ul>

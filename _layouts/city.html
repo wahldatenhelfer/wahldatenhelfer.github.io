@@ -33,22 +33,27 @@ layout: default
 
 <script>
   (function(){
-    var map = L.map(
-      'map',
-      {
-        dragging: false,
+   var map;
+ 
+    // set up the map
+    map = new L.map('map', 
+      { dragging: false,
         touchZoom: false,
         scrollWheelZoom: false,
         doubleClickZoom: false,
         boxZoom: false,
         zoomControl: false,
-        keyboard: false
-      }
-    ).setView([{{ page.lat }}, {{ page.lng }}], 16);
+        keyboard: false }
+    );
 
-    L.tileLayer('http://{s}.tile.cloudmade.com/925ede8aa027411da7b5c04de7be80a9/96931/256/{z}/{x}/{y}.png').addTo(map);
-    map.attributionControl.setPrefix(false);
-    map.attributionControl.addAttribution('Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>');
+    // create the tile layer with correct attribution
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+    var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });   
+
+    // start the map in South-East England
+    map.setView(new L.LatLng({{ page.lat }}, {{ page.lng }}), 16);
+    map.addLayer(osm);
 
     var marker = L.marker(
       [{{ page.lat }}, {{ page.lng }}],

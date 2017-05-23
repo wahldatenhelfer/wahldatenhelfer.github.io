@@ -1,98 +1,68 @@
 ---
 layout: default
---- 
-<div class="row white-row">
+---
+<div class="row blue-row">
   <div class="col-lg-12">
     <div class="row">
       <div class="col-lg-12">
-        <h2>Die Mission</h2>
+        <h3>Die Mission</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row as-white">
       <div class="col-lg-6 col-md-6 col-sm-6">
         <p>
-          Ziel des Projekts Wahl.Daten.Helfer. ist, eine Platform zu werden auf der Hackathons zu Wahlen angekündigt werden. Wir wollen uns nicht nur treffen, um uns mit den aktuellen Wahldaten auseinanderzusetzen, sondern auch für bevorstehende Wahlen Toolsets und Apps zu entwickeln, die leicht adaptiert und so z.B. für die Europawahl genutzt und weiterverwendet werden können.
+          Wahl.Daten.Helfer ist der zentrale Anlaufpunkt für alles rund um offene Daten und die Digitalisierung der Demokratie. Hier werden Hackathons und Meetups zu diesen und verwandten Themen angekündigt.
+          Doch wir wollen uns nicht nur treffen, um uns mit den aktuellen Wahldaten auseinanderzusetzen, es sollen auch neue Toolsets und Apps entwickelt werden, die für bevorstehende Wahlen leicht adaptiert und weiterverwendet werden können.
         </p>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <p>
-          Gemeinsam wollen wir am Wahlwochenende auf Veranstaltungen in ganz Deutschland an neuen Apps und Visualisierungen rund um offene Wahldaten arbeiten. Die Resultate werden anschließend im Showroom der Kampagne veröffentlicht.
+          Gemeinsam wollen wir auf Veranstaltungen in ganz Deutschland an neuen Apps</br>
+          und Visualisierungen rund um offene Wahldaten arbeiten. Die Resultate werden</br>
+          anschließend im Showroom der Kampagne veröffentlicht, um wirklich genutzt zu werden.
+
+          Apps entwickeln stärkt die Demokratie!
         </p>
-        <p>
+        <p class="as-pink">
           <strong>Apps entwickeln stärkt die Demokratie!</strong>
         </p>
       </div>
     </div>
   </div>
 </div>
-<div class="row yellow-row">
-  <div class="col-lg-12">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>Europawahl</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <p>
-          Am 25. Mai ist es soweit. Ein neues <strong>Europaparlament wird gewählt</strong>.
-          Neben der Europawahl, sind die Bürger in den meißten Bundenländern
-          auch aufgerufen ihre Stimme für die <strong>Kommunalwahl</strong> abzugeben.
-          In NRW finden zusätzlich die <strong>Integrationswahlen</strong> statt!
-        </p>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <p>
-          <strong>29 Länder</strong> und <strong>Millionen Wahlberechtigte</strong>
-        </p>
-        <p>
-          Wir rufen alle Bürgerinnen und Bürger in ganz Deutschland auf, im Zuge von Wahl.Daten.Helfer. die aktuellen wie auch historischen Wahldaten kreativ zu nutzen!
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="row white-row">
   <div class="col-lg-12">
     <div class="row">
       <div class="col-lg-12">
-        <h2>Beispiele</h2>
+        <h2>Bundestagswahl</h2>
       </div>
     </div>
     <div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      	<a target="_blank" href="http://wahllokalfinder.herokuapp.com/">
-          <img alt="Wahllokalfinder" class="img-responsive" src="/img/wahllokalfinder.png">
-        </a>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <p>
+          Die Wahl zum <span class="pink">19. Deutschen Bundestag</span> findet am <span class="pink">24. September 2017 </span>statt.</br>
+          Wir wollen alle Bürgerinnen und Bürger aufrufen, im Zuge dieser Wahl die hier bereitgestellten Wahldaten, Tools und Apps zu nutzen.
+        </p>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      	<a target="_blank" href="http://pudo.org/btw13.js/">
-          <img alt="Verteilung Bundeslaender" class="img-responsive" src="/img/js.png">
-        </a>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <p>
+          Informiert euch auf der Website oder bei unseren Treffen, erschafft Neues – </br>und vor allem: <span class="pink">Geht wählen!</span></br>
+          Eine Vielzahl von Angeboten soll dabei helfen.
+          Schaut euch die Beispiele unten an!
+        </p>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-    	  <a target="_blank" href="http://www.ulmapi.de/direktkandidaten-map/">
-          <img alt="Direktkandidaten" class="img-responsive" src="/img/direktkandidaten.png">
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      	<a target="_blank" href="http://wahlquiz.mehreinfach.de/#1">
-          <img alt="Wahlquiz" class="img-responsive" src="/img/wahlquiz.png">
-        </a>
-			</div>
-		</div>
+    </div>
   </div>
 </div>
-
 <div class="row white-row">
   <div class="col-lg-6 col-md-6 map-container">
     <div id="map"></div>
   </div>
   <div class="col-lg-6 col-md-6">
-    <h2>Europawahl 2014 Events</h2>
+    <h4>Events zur Bundestagswahl 2017</h4>
     <ul class="city-list">
       {% for event in site.pages %}
-        {% if event.tags contains "europawahl2014" %}
+        {% if event.tags contains "bundestagswahl2017" %}
           <li class="box">
             <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
               &lt;wahllokal/&gt; {{ event.name }}
@@ -113,62 +83,44 @@ layout: default
     </ul>
   </div>
 </div>
-
 <div class="row white-row">
   <div class="col-lg-12">
     <div class="row">
       <div class="col-lg-12">
-        <h2>Vergangene Events</h2>
-        <h3>Bundestagswahl 2013</h3>
-        <ul class="city-list">
-          {% for event in site.pages %}
-            {% if event.tags contains "bundestagswahl2013" %}
-              <li class="box">
-                <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
-                  &lt;wahllokal/&gt; {{ event.name }}
-                </a>
-                <div class="box-content">
-                  {{ event.where }}<br/>
-                  {{ event.when }}
-                </div>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+        <h2>Beispiele</h2>
       </div>
     </div>
+    <div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      	<a target="_blank" href="http://wahllokalfinder.herokuapp.com/">
+          <img alt="Wahllokalfinder" class="img-responsive" src="/img/wahllokalfinder.png">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      	<a target="_blank" href="https://tom.cologne.codefor.de/wahlgebiet/">
+          <img alt="Wahlgebiete" class="img-responsive" src="/img/wahlgebiete.png">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    	  <a target="_blank" href="http://codeformuenster.org/wahlkarte/">
+          <img alt="Wahlkarte" class="img-responsive" src="/img/wahlkarte.png">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      	<a target="_blank" href="http://www.ulmapi.de/direktkandidaten-map/">
+          <img alt="Direktkandidaten" class="img-responsive" src="/img/direktkandidaten.png">
+        </a>
+			</div>
+		</div>
   </div>
 </div>
 
-<div class="row yellow-row">
-  <div class="col-lg-12">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>Das Ergebnis der Bundetagswahl 2013</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <p> 
-          Am Wahlwochenende haben sich Entwickler, Designer und interessierte Bürger in Berlin, Köln und Ulm getroffen um gemeinsam an kreativen Anwendungen und Visualisierungen rund um die Daten zur Wahl zu arbeiten. In Köln wurden eigens für das Event neue Datensätze als Open Data veröffentlicht. Ziel des Projekts Wahl.Daten.Helfer., das von der <a href="http://www.stadt-koeln.de/">Stadt Köln</a>, <a href="http://wiki.koelnapi.de/w/Hauptseite">API Köln</a>, der <a href="http://railslove.com/">Railslove GmbH</a> und der <a href="http://okfn.de/">Open Knowledge Foundation Deutschland</a> ausgerichtet wurde, war es nicht nur sich zu treffen und gemeinsam intensiv mit den Wahldaten auseinanderzusetzen, sondern auch für bevorstehende Wahlen Toolsets und Apps zu entwickeln, die leicht adaptiert und so z.B. für Kommunalwahlen genutzt und weiterverwendet werden können. Die Bundestagswahl wird von den Medien bestens begleitet und ausgewertet, es gibt unzählige Visualisierungen und Anwendungen die Bürgern im Vorfeld dabei helfen sich zu informieren und einen Überblick zu bekommen. Auch die Ergebnisse werden bis ins kleinste Detail mit Hilfe neuster Visualisierungstrends aufbereitet. 
-        </p>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <p>
-          Um auch bei Kommunalwahlen auf informative Werkzeuge, Apps und Visualisierungen zurückgreifen zu können, stehen viele der bei Wahl.Daten.Helfer. entwickelten Apps und Visualisierungen und deren Code zur freien Nutzung zur Verfügung. Ziel von Wahl.Daten.Helfer. war es auch in den teilnehmenden Städten, die Entwickler-Community mit der Verwaltung besser zu vernetzen und damit Ideen für zukünftige Projekte anzustoßen.
-          <br><br>Eine Übersicht aller Apps und Hacks vom Wochenende findet man <a href="http://wahldaten.hackdash.org/">hier</a> und auf den Unterseiten der Städte.
-          <br><br> In Köln wurde zum Wahlwochenende die Initiative <a href="http://www.offenedaten-koeln.de/2013/09/deine-stimme-fuer-koeln/">„Deine Stimme für Köln"</a> gelauncht, in der Bürger dazu aufgerufen sind Ideen, Skizzen, Visualisierungen oder Geschichten zum Thema Wahl einzureichen.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
 <script>
   (function(){
     var map;
- 
+
     // set up the map
-    map = new L.map('map', 
+    map = new L.map('map',
       { dragging: false,
         touchZoom: false,
         scrollWheelZoom: false,
@@ -181,7 +133,7 @@ layout: default
     // create the tile layer with correct attribution
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-    var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });   
+    var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
 
     // start the map in South-East England
     map.setView(new L.LatLng(51.0834196, 10.4234469),5);

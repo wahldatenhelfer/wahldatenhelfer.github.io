@@ -1,22 +1,59 @@
 @media (min-width: 1200px) {
   .container {
-    max-width: 970px;
   }
 }
 
 body {
-	background-color: #e5e6e6;
-	font-family: 'Oxygen', sans-serif;
+	background-color: #fde4dc;
+	font-family: 'Open Sans';
 }
 
 h1, h2 {
   text-transform: uppercase;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 36px;
+}
+
+h3 {
+	text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: #f99c44;
+  font-size: 36px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 26px;
+  margin: 30px 0 30px;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #f99c44;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 26px;
+  margin: 30px 0 30px;
+}
+
+.margin {
+	margin-right: 100px;
+}
+
+@media (max-width: 970px) {
+  .margin {
+  	margin-right: 0px;
+  	margin-bottom: 20px;
+  }
 }
 
 
 a, a:focus, a:visited { text-decoration:none; font-weight:bold; color:#000000; }
-a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
+a:hover { text-decoration:none; font-weight:bold; color:#f03d6c; }
 #footer a:active { text-decoration:none; font-weight:bold; background-color:#000; }
 
 .yellow-row a:hover {
@@ -28,36 +65,82 @@ a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
 }
 
 .header-row {
+	position: relative;
   margin-top: 20px;
-  background-color: #fbe106;
+  background: #f99c44; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #f99c44 0%, #f03d6c 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #f99c44 0%,#f03d6c 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #f99c44 0%,#f03d6c 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .logo {
   display: block;
   padding: 10px;
+  width: 200px;
+}
+
+.partner {
+  width: 150px;
+}
+
+.example {
+	padding: 10px;
 }
 
 .nav {
-  margin-top: 5px;
+  margin-top: 10px;
+  float: right;
+  text-align: right;
 }
 
 .nav > a {
   padding: 4px 8px 7px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .nav > a:hover {
-  color: #fff;
-  background-color: #000;
+  color: #f99c44;
+}
+
+.social {
+	width: 20px;
 }
 
 .nav > a.img-nav:hover {
-  background-color: transparent;
+  fill: #262b48;
 }
 
 .white-row {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 20px rgba(0, 0, 0, 0.3);
   background-color: white;
+}
+
+.blue-row {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 20px rgba(0, 0, 0, 0.3);
+  background-color: #262b48;
+}
+.as-white {
+	color:#fff;
+}
+
+.white {
+	color:#fff;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 26px;
+	float: right;
+	text-transform: none !important;
+}
+
+.as-pink {
+	color: #f03d6c;
+	font-size: 26px;
+}
+.pink {
+	color: #f03d6c;
+	font-weight: 600;
 }
 
 .yellow-row {
@@ -66,7 +149,10 @@ a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
 
 .footer-row {
   padding: 1em 0;
-  background-color: #000;
+	background: #f99c44; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #f99c44 0%, #f03d6c 0%, #f03d6c 9%, #f03d6c 29%, #f99c44 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f99c44 0%,#f03d6c 0%,#f03d6c 9%,#f03d6c 29%,#f99c44 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f99c44 0%,#f03d6c 0%,#f03d6c 9%,#f03d6c 29%,#f99c44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .footer-row > div > a {
@@ -80,7 +166,7 @@ a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
 }
 
 .big-link:hover {
-  color: #333;
+  color: #f03d6c;
   text-decoration: underline;
 }
 
@@ -153,13 +239,14 @@ a:hover { text-decoration:none; font-weight:bold; color:#fbe106; }
 .box-header {
 	margin: 0;
 	padding: 10px 20px;
-  background-color: black;
-  color: #fff !important;
+  background-color: #262b48;
+  color: #f03d6c !important;
   display: inline-block;
+  font-size: 16px;
 }
 
 a.box-header:hover {
-  color: #fbe106 !important;;
+  color: #f99c44 !important;;
 }
 
 .city-list{
@@ -169,7 +256,8 @@ a.box-header:hover {
 }
 
 .box .box-content {
-	border: 2px solid #e5e6e6;
+	border-bottom: 2px solid #a39f9e;
+	border-top: 2px solid #a39f9e;
 	padding: 5px;
 }
 
@@ -183,7 +271,7 @@ a.box-header:hover {
 .impressum a:active,
 .impressum a:focus {
 	font-size: 10px;
-	color: #6E6E6E;
+	color: #f03d6c;
 }
 
 #map {

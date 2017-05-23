@@ -65,7 +65,7 @@ layout: default
         {% if event.tags contains "bundestagswahl2017" %}
           <li class="box">
             <a class="box-header" href="{{ event.url|replace:"index.html","" }}">
-              &lt;wahllokal/&gt; {{ event.name }}
+              &lt;event/&gt; {{ event.title }}
             </a>
             <div class="box-content">
               {{ event.where }}<br/>
@@ -141,7 +141,7 @@ layout: default
 
     var markers = [];
     {% for event in site.pages %}
-      {% if event.tags contains "europawahl2014" %}
+      {% if event.tags contains "bundestagswahl2017" %}
         var marker = L.marker(
           [{{ event.lat }}, {{ event.lng }}],
           {

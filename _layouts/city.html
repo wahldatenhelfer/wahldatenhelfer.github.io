@@ -11,10 +11,10 @@ layout: default
     <div id="map"></div>
   </div>
   <div class="col-lg-6 col-md-6">
-    <h2>&lt;wahllokal/&gt; {{ page.name }}</h2>
+    <h2>Location</h2>
     <ul class="city-list">
       <li class="box">
-        <div class="box-header">&lt;wahllokal/&gt; {{ page.name }}</div>
+        <div class="box-header">&lt;event/&gt;</div>
         <div class="box-content">
           {{ page.where }}<br/>
           {{ page.when }}
@@ -34,9 +34,9 @@ layout: default
 <script>
   (function(){
    var map;
- 
+
     // set up the map
-    map = new L.map('map', 
+    map = new L.map('map',
       { dragging: false,
         touchZoom: false,
         scrollWheelZoom: false,
@@ -49,7 +49,7 @@ layout: default
     // create the tile layer with correct attribution
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-    var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });   
+    var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
 
     // start the map in South-East England
     map.setView(new L.LatLng({{ page.lat }}, {{ page.lng }}), 16);

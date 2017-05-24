@@ -134,6 +134,12 @@ a:hover { text-decoration:none; font-weight:bold; color:#f03d6c; }
 	text-transform: none !important;
 }
 
+@media (max-width: 970px) {
+	.white {
+		display: none;
+	}
+}
+
 .as-pink {
 	color: #f03d6c;
 	font-size: 26px;
@@ -195,6 +201,11 @@ a:hover { text-decoration:none; font-weight:bold; color:#f03d6c; }
 	margin: 10px 0 0 0;
 
 }
+
+.img-responsive {
+	padding: 10px;
+}
+
 
 .bilder {
 	float: left;
